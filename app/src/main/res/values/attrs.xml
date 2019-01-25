@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DrawBox">
+        <attr name="main_color" format="color"/>
+        <attr name="move_color" format="color"/>
+        <attr name="x_size" format="dimension"/>
+        <attr name="y_size" format="dimension"/>
+        <attr name="x_start" format="dimension"/>
+        <attr name="y_start" format="dimension"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/xyTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+    <com.syrovama.dragndraw.DrawBox
+        android:id="@+id/drawbox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:x_size="@dimen/x_size"
+        app:y_size="@dimen/y_size"
+        app:x_start="@dimen/offset"
+        app:y_start="@dimen/offset"
+        app:main_color="@color/colorPrimary"
+        app:move_color="@color/colorAccent"
+        />
+
+</LinearLayout>

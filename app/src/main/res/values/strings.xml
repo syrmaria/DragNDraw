@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DragNDraw</string>
+    <string name="coordinate_text">X = %1$f, Y = %2$f</string>
+</resources>
